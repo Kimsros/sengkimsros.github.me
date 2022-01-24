@@ -1,0 +1,88 @@
+@import "./variable.css";
+@import "./model.css";
+@import "./brand.css";
+@import "./type.css";
+@import "./egine.css";
+@import "./filter.css";
+
+html {
+    height: 100%!important;
+}
+
+body {
+    background-color: var(--HTML_BODY_COLOR);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: var(--FONT_MD);
+}
+
+main {
+    max-width: 60%;
+    background-color: var(--BODY_COLOR);
+
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.section_title {
+    border-bottom: solid var(--BORDER_COLOR_PRIMARY) var(--BORDER_WIDTH_PRIMARY);
+    margin-bottom: 12px;
+    color: white;
+}
+
+.section_title .title {
+    padding: 3px 12px;
+    width: max-content;
+    background-color: rgb(95, 95, 95);
+}
+
+.section_content {
+
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+h3, h4, h5 {
+    margin: 0;
+    font-size: var(--FONT_MD)!important;
+}

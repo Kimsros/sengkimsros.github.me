@@ -1,0 +1,61 @@
+.filter {
+
+}
+
+.filter-title {
+    font-size: var(--FONT_LG);
+    margin-bottom: 6px;
+}
+
+.filter-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prefix-title {
+
+}
+
+.subfix-title {
+
+}
+
+.filter .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: calc(100% - 150px);
+    min-width: 200px;
+}
+
+.custom-input {
+    font-size: var(--FONT_MD);
+    padding: 0 6px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid var(--BORDER_COLOR_PRIMARY);
+    width: calc(100% - 150px);
+    min-width: 200px;
+    max-width: 100%;
+    height: 30px;
+    margin: 6px 0 ;
+}
+
+.btn-submit {
+    background-color: var(--BACKGROUND_COLOR);
+    border: 0.5px solid var(--BORDER_COLOR_PRIMARY);
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-submit:active {
+    background-color: var(--ACTION_ACTIVE_COLOR_PRIMARY);
+    color: white;
+}

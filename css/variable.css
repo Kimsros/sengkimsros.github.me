@@ -1,0 +1,14 @@
+:root {
+    --HTML_BODY_COLOR: rgb(219, 218, 218);
+    --BACKGROUND_COLOR: rgb(238, 236, 236);
+    --BODY_COLOR: white;
+
+    --FONT_SM: 12px;
+    --FONT_MD: 14px;
+    --FONT_LG: 16px;
+
+    --BORDER_COLOR_PRIMARY: rgb(184, 180, 180);
+    --BORDER_WIDTH_PRIMARY: 1px;
+
+    --ACTION_ACTIVE_COLOR_PRIMARY: grey
+}

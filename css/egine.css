@@ -1,0 +1,31 @@
+.egine-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.egine {
+    width: 100px;
+}
+
+.egine-thumbnail {
+
+}
+
+.egine-img {
+    width: 50px;
+}
+
+.egine-title {
+    margin: 5px 0;
+    text-align: center;
+    font-size: var(--FONT_SM);
+    color: rgb(82, 82, 238);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .egine-container {
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,31 @@
+.type-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.type {
+    width: 110px;
+}
+
+.type-thumbnail {
+    height: 50px;
+}
+
+.type-img {
+    max-width: 100%;
+}
+
+.type-title {
+    margin-top: 6x;
+    text-align: center;
+    font-size: var(--FONT_SM);
+    color: rgb(82, 82, 238);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .type-container {
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,89 @@
+.model-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.model-container::-webkit-scrollbar {
+    display: none;
+}
+
+.model {
+    width: 200px;
+    margin-right: 12px;
+}
+
+.model-thumbnail {
+    border: solid var(--BORDER_COLOR_PRIMARY) var(--BORDER_WIDTH_PRIMARY);
+    margin-bottom: 6px;
+    width: inherit;
+    height: 70px;
+}
+
+.model-img {
+    max-width: 100%;
+    max-height: 70px;
+}
+
+.model-infomation {
+
+}
+
+.model-specification {
+    font-size: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.3;
+    margin: 0!important;
+}
+
+.model-specification dt {
+    width: 28%;
+    margin-bottom: 2px;
+}
+
+.model-specification dd {
+    width: 72%;
+    margin-bottom: 2px;
+    float: right;
+    margin: 0;
+}
+
+.model-infomation:hover {
+    text-decoration: none!important;
+}
+
+.model-name {
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.model-name-sub {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.model-name-main {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.model-name-main {
+
+}
+
+.model-name-main-a {
+    padding: 0;
+    color: #3E76CB!important;
+    font-size: var(--FONT_LG);
+}
+
+.model-name-main-a:hover {
+    text-decoration: underline;
+}
